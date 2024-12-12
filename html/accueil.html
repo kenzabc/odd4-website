@@ -1,24 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title> Accueil</title>
+    <title>Accueil - ODD 5 : Égalité des Sexes</title>
     <meta charset="UTF-8">
-    <nav>
-        <a href="./apropos.html"> A propos</a>
-        <a href="./histoire.html"> Histoire</a>
-        <a href="./Problematiques.html"> Problématiques actuelles</a>
-        <a href="./accueil.html">Accueil</a>
-        <a href="./Ressources.html">Ressources</a>
-        <a href="./statistiques.html"> Statistiques</a>
-        
-
-    </nav>
+    <script src="../js/popup.js"></script>
+    <script src="../js/progressbar.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     
+    <nav>
+        <a href="./apropos.html">A propos</a>
+        <a href="./histoire.html">Histoire</a>
+        <a href="./Problematiques.html">Problématiques actuelles</a>
+        <a href="./accueil.html">Accueil</a>
+        <a href="./Ressources.html">Ressources</a>
+        <a href="./statistiques.html">Statistiques</a>
+    </nav>
+    <div id="welcomePopup" class="popup">
+        <div class="popup-content">
+            <h2>Bienvenue !</h2>
+            <p>Découvrez notre site dédié à l'ODD 5 : Égalité des sexes.</p>
+            <button id="closePopup">Commencer</button>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <h1>Bienvenue sur le site dédié à l'ODD 5</h1>
+        <p>Promouvoir l'égalité des sexes et autonomiser les femmes, un objectif essentiel pour un avenir durable.</p>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/35-RaA6xPlk" 
+                    title="Vidéo sur l'égalité des sexes" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section Découverte -->
+        <section id="decouverte">
+            <h2>Qu'est-ce que l'ODD 5 ?</h2>
+            <p>L'ODD 5, ou Objectif de Développement Durable numéro 5, vise à informer et promouvoir l'égalité des sexes à l'échelle mondiale. Découvrez comment cet objectif impacte notre monde et les actions entreprises pour le réaliser.</p>
+        </section>
+
+        <!-- Section Points Clés -->
+        <section id="points-cles">
+            <h2>Pourquoi l'égalité des sexes est essentielle ?</h2>
+            <ul>
+                <li><strong>Éducation :</strong> Plus de 130 millions de filles dans le monde n'ont pas accès à l'éducation.</li>
+                <li><strong>Économie :</strong> Les femmes gagnent en moyenne 20 % de moins que les hommes à poste égal.</li>
+                <li><strong>Santé :</strong> Les femmes sont souvent privées d'un accès égal aux soins de santé.</li>
+                <li><strong>Représentation :</strong> Seulement 26 % des sièges parlementaires dans le monde sont occupés par des femmes.</li>
+            </ul>
+        </section>
+
+        <!-- Section Exploration -->
+        <section id="exploration">
+            <h2>À découvrir sur ce site</h2>
+            <div class="exploration-grid">
+                <article>
+                    <h3><a href="./histoire.html">Histoire</a></h3>
+                    <p>Explorez les grandes étapes et figures historiques qui ont marqué la lutte pour l'égalité des sexes.</p>
+                </article>
+                <article>
+                    <h3><a href="./Problematiques.html">Problématiques actuelles</a></h3>
+                    <p>Découvrez les défis persistants, des inégalités salariales aux violences faites aux femmes.</p>
+                </article>
+                <article>
+                    <h3><a href="./statistiques.html">Statistiques</a></h3>
+                    <p>Consultez des données clés pour comprendre l'ampleur des inégalités de genre dans le monde.</p>
+                </article>
+                <article>
+                    <h3><a href="./Ressources.html">Ressources</a></h3>
+                    <p>Accédez à des ressources et organisations qui viennent en aide aux femmes confrontées à des difficultés.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section Appel à l'Action -->
+        <section id="appel-action">
+            <h2>Comment contribuer ?</h2>
+            <p>Rejoignez la lutte pour l'égalité des sexes. Que ce soit par des dons, du bénévolat ou en partageant ces informations, chaque action compte.</p>
+            <div class="action-buttons">
+                <button onclick="window.location.href='./Ressources.html'">Soutenir les Ressources</button>
+                <button onclick="window.location.href='./Problematiques.html'">Explorer les Problématiques</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        ©️2024 Tous droits réservés. <a href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les?">En savoir plus ?</a>
+    </footer>
+    
 </body>
-<footer>
-    ©️2024 Tous droits réservés. <a href=" https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les?">En savoir plus ?</a>
-</footer>
 </html>

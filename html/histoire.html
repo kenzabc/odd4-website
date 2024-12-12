@@ -1,24 +1,189 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title> Histoire</title>
+    <title>Histoire</title>
     <meta charset="UTF-8">
-    <nav>
-        <a href="./apropos.html"> A propos</a>
-        <a href="./histoire.html"> Histoire</a>
-        <a href="./Problematiques.html"> Problématiques actuelles</a>
-        <a href="./accueil.html">Accueil</a>
-        <a href="./Ressources.html">Ressources</a>
-        <a href="./statistiques.html"> Statistiques</a>
-        
-
-    </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="../js/quiz.js"></script>
+    <script src="../js/progressbar.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     
+    <nav>
+        <a href="./apropos.html">A propos</a>
+        <a href="./histoire.html">Histoire</a>
+        <a href="./Problematiques.html">Problématiques actuelles</a>
+        <a href="./accueil.html">Accueil</a>
+        <a href="./Ressources.html">Ressources</a>
+        <a href="./statistiques.html">Statistiques</a>
+    </nav>
+    <div id="progressBar">
+        <div id="progress"></div>
+    </div>
+    
+
+    <header>
+        <h1>L'Histoire de la Lutte pour l'Égalité des Sexes</h1>
+        <p>Découvrez les étapes marquantes et les figures clés de l'histoire de l'égalité des sexes.</p>
+    </header>
+
+    <main>
+        <section id="origines">
+            <h2>Les Origines de la Lutte</h2>
+            <p>Depuis l'Antiquité, la place des femmes dans la société a été définie par des normes patriarcales. Cependant, certaines voix se sont élevées pour remettre en question ces inégalités :</p>
+            <ul>
+                <li><strong>Égypte ancienne :</strong> Certaines femmes, comme la reine Hatchepsout, ont accédé au pouvoir malgré les obstacles.</li>
+                <li><strong>Grèce antique :</strong> La philosophe Hypatie d'Alexandrie a marqué l'histoire par son érudition et son courage.</li>
+            </ul>
+        </section>
+
+        <section id="revolutions">
+            <h2>Les Grandes Révolutions</h2>
+            <p>La Révolution française a marqué un tournant dans l'histoire de l'égalité des sexes. C'est à cette époque qu'Olympe de Gouges a publié la <em>Déclaration des droits de la femme et de la citoyenne</em> en 1791, affirmant que "la femme naît libre et demeure égale à l'homme en droits."</p>
+            <blockquote>
+                "Les femmes ont le droit de monter à l'échafaud ; elles doivent également avoir celui de monter à la tribune." - Olympe de Gouges
+            </blockquote>
+        </section>
+
+        <section id="xixe-siecle">
+            <h2>Le XIX<sup>e</sup> siècle : Les Premiers Mouvements Féministes</h2>
+            <p>Au XIX<sup>e</sup> siècle, des mouvements organisés commencent à émerger, en particulier dans les pays industrialisés :</p>
+            <ul>
+                <li><strong>1848 :</strong> La Convention de Seneca Falls aux États-Unis lance le mouvement pour le droit de vote des femmes.</li>
+                <li><strong>1869 :</strong> John Stuart Mill publie <em>The Subjection of Women</em>, plaidant pour l'égalité entre les sexes.</li>
+            </ul>
+        </section>
+
+        <section id="xxe-siecle">
+            <h2>Le XX<sup>e</sup> siècle : Une Avancée Décisive</h2>
+            <p>Le XX<sup>e</sup> siècle est marqué par des victoires importantes dans la lutte pour l'égalité :</p>
+            <ul>
+                <li><strong>1944 :</strong> Droit de vote accordé aux femmes en France.</li>
+                <li><strong>1948 :</strong> Adoption de la Déclaration universelle des droits de l'homme, affirmant l'égalité des sexes.</li>
+                <li><strong>1979 :</strong> Convention sur l'élimination de toutes les formes de discrimination à l'égard des femmes (CEDAW).</li>
+            </ul>
+        </section>
+
+        <section id="figures">
+            <h2>Figures Clés de l'Histoire</h2>
+            <div class="figure-container">
+                <div class="figure-card">
+                    <a href="https://fr.wikipedia.org/wiki/Olympe_de_Gouges" target="_blank">
+                        <img src="../img/odg.jpg" alt="Olympe de Gouges">
+                    </a>
+                    <a href="https://fr.wikipedia.org/wiki/Olympe_de_Gouges" target="_blank">
+                        <h3>Olympe de Gouges</h3>
+                    </a>
+                    <p>Auteure de la <em>Déclaration des droits de la femme et de la citoyenne</em>, elle a été une pionnière de la lutte pour l'égalité des sexes en France.</p>
+                </div>
+                <div class="figure-card">
+                    <a href="https://fr.wikipedia.org/wiki/Simone_de_Beauvoir" target="_blank">
+                        <img src="../img/sdb.jpg" alt="Simone de Beauvoir">
+                    </a>
+                    <a href="https://fr.wikipedia.org/wiki/Simone_de_Beauvoir" target="_blank">
+                        <h3>Simone de Beauvoir</h3>
+                    </a>
+                    <p>Philosophe et écrivaine, son œuvre <em>Le Deuxième Sexe</em> a influencé plusieurs générations de féministes à travers le monde.</p>
+                </div>
+                <div class="figure-card">
+                    <a href="https://fr.wikipedia.org/wiki/Rosa_Parks" target="_blank">
+                        <img src="../img/rp.jpg" alt="Rosa Parks">
+                    </a>
+                    <a href="https://fr.wikipedia.org/wiki/Rosa_Parks" target="_blank">
+                        <h3>Rosa Parks</h3>
+                    </a>
+                    <p>Militante américaine des droits civiques, son refus de céder sa place dans un bus a marqué un tournant dans la lutte contre les discriminations.</p>
+                </div>
+                <div class="figure-card">
+                    <a href="https://fr.wikipedia.org/wiki/Malala_Yousafzai" target="_blank">
+                        <img src="../img/my.jpg" alt="Malala Yousafzai">
+                    </a>
+                    <a href="https://fr.wikipedia.org/wiki/Malala_Yousafzai" target="_blank">
+                        <h3>Malala Yousafzai</h3>
+                    </a>
+                    <p>Militante pakistanaise pour l'éducation des filles, elle est devenue la plus jeune lauréate du prix Nobel de la paix.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="perspectives">
+            <h2>Perspectives et Défis</h2>
+            <p>Malgré les avancées, de nombreux défis subsistent : violences faites aux femmes, inégalités salariales, sous-représentation dans les postes de pouvoir. La lutte pour l'égalité est loin d'être terminée.</p>
+        </section>
+    </main>
+    <section id="quiz">
+        <h2>Testez vos connaissances sur l'Histoire de l'Égalité des Sexes</h2>
+        <form id="quizForm">
+            <!-- Collecte du nom -->
+            <div>
+                <label for="name">Votre nom :</label>
+                <input type="text" id="name" name="name" placeholder="Entrez votre nom" required>
+            </div>
+    
+            <!-- Question 1 -->
+            <div>
+                <p><strong>Question 1 :</strong> Qui a écrit la Déclaration des droits de la femme et de la citoyenne ?</p>
+                <label>
+                    <input type="radio" name="q1" value="Olympe de Gouges" required>
+                    Olympe de Gouges
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="Simone de Beauvoir">
+                    Simone de Beauvoir
+                </label><br>
+                <label>
+                    <input type="radio" name="q1" value="Marie Curie">
+                    Marie Curie
+                </label>
+            </div>
+    
+            <!-- Question 2 -->
+            <div>
+                <p><strong>Question 2 :</strong> En quelle année les femmes ont-elles obtenu le droit de vote en France ?</p>
+                <label>
+                    <input type="radio" name="q2" value="1918" required>
+                    1918
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="1944">
+                    1944
+                </label><br>
+                <label>
+                    <input type="radio" name="q2" value="1965">
+                    1965
+                </label>
+            </div>
+    
+            <!-- Question 3 -->
+            <div>
+                <p><strong>Question 3 :</strong> Qui est la plus jeune lauréate du prix Nobel de la paix pour son engagement en faveur de l'éducation des filles ?</p>
+                <label>
+                    <input type="radio" name="q3" value="Malala Yousafzai" required>
+                    Malala Yousafzai
+                </label><br>
+                <label>
+                    <input type="radio" name="q3" value="Greta Thunberg">
+                    Greta Thunberg
+                </label><br>
+                <label>
+                    <input type="radio" name="q3" value="Rosa Parks">
+                    Rosa Parks
+                </label>
+            </div>
+    
+            <!-- Bouton de soumission -->
+            <div>
+                <button type="submit">Soumettre mes réponses</button>
+            </div>
+        </form>
+        <p id="quizFeedback"></p>
+    </section>
+    
+
+    <footer>
+        ©️2024 Tous droits réservés. <a href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les?">En savoir plus ?</a>
+    </footer>
+    
 </body>
-<footer>
-    ©️2024 Tous droits réservés. <a href=" https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les?">En savoir plus ?</a>
-</footer>
 </html>

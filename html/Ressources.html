@@ -1,61 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ressources</title>
+    <meta charset="UTF-8">
+    <script src="../js/progressbar.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <script type="text/JavaScript" src="../js/script.js" async></script>
 </head>
 <body>
+    <nav>
+        <a href="./apropos.html">A propos</a>
+        <a href="./histoire.html">Histoire</a>
+        <a href="./Problematiques.html">Problématiques actuelles</a>
+        <a href="./accueil.html">Accueil</a>
+        <a href="./Ressources.html">Ressources</a>
+        <a href="./statistiques.html">Statistiques</a>
+    </nav>
+    <div id="progressBar">
+        <div id="progress"></div>
+    </div>
+    
+
     <header>
-        <a href="https://www.egalite-femmes-hommes.gouv.fr/8-mars-journee-internationale-des-droits-des-femmes">
-            <img src="../img/women.jpg" alt="image sur le droit des femmes" id="header-logo" width="100%" 
-            height="auto">
-        </a>
-        <nav>
-            <a href="./acceuil.html">Accueil</a>
-            <a href="./histoire.html">Histoire</a>
-            <a href="./problematiques.html">Problematiques</a>
-            <a href="./statistiques.html">Statistiques</a>
-            <a href="./ressources.html">Ressources</a>
-            <a href="./apropos.html">A propos</a>
-        </nav>
+        <h1>Ressources pour les Femmes en Besoin</h1>
+        <p>Découvrez des initiatives, des organisations, et des bourses pour soutenir les femmes et leur offrir de nouvelles opportunités.</p>
     </header>
-    <h1>Ressources pour les femmes en besoin</h1>
 
-<p id="intro">Il existe de nombreuses ressources et organisations qui viennent en aide aux femmes confrontées à des difficultés. Si vous ou une femme de votre entourage êtes dans une situation de vulnérabilité, voici quelques sources de soutien disponibles :
-</p>
- 
-<h2>Ligne d'écoute et soutien</h2>
+    <main>
+        <!-- Section Aide immédiate -->
+        <section id="aide-immediate">
+            <h2>Aide Immédiate pour les Femmes en Détresse</h2>
+            <div class="resource-container">
+                <div class="resource-card">
+                    <h3><a href="https://www.onu-femmes.org/" target="_blank">ONU Femmes</a></h3>
+                    <p>Offre un soutien global aux femmes victimes de violence et de discrimination. Consultez leur site pour des lignes d’assistance et des initiatives locales.</p>
+                </div>
+                <div class="resource-card">
+                    <h3><a href="https://www.solidaritefemmes.org/" target="_blank">Solidarité Femmes</a></h3>
+                    <p>Un réseau d’organisations en France qui soutient les femmes victimes de violences conjugales. Appelez le 3919 pour une assistance gratuite.</p>
+                </div>
+                <div class="resource-card">
+                    <h3><a href="https://www.plan-international.fr/" target="_blank">Plan International</a></h3>
+                    <p>Soutien aux jeunes filles dans les situations de crise humanitaire, avec un accent sur l’éducation et la protection.</p>
+                </div>
+            </div>
+        </section>
 
-<p>De nombreux pays ont mis en place des lignes d'écoute d'urgence pour les femmes victimes de violences. Ces services offrent une écoute confidentielle et orientent les victimes vers des structures adaptées. Par exemple, en France, le numéro <a href="https://solidaritefemmes.org/appeler-le-3919/">3919</a> est une ligne d'écoute gratuite pour les femmes victimes de violences.</p>
+        <!-- Section Bourses pour l'éducation -->
+        <section id="bourses-education">
+            <h2>Bourses pour l'Éducation des Femmes</h2>
+            <p>L'accès à l'éducation est essentiel pour autonomiser les femmes. Voici des programmes de bourses qui soutiennent leur parcours éducatif :</p>
+            <div class="resource-container">
+                <div class="resource-card">
+                    <h3><a href="https://www.unesco.org/" target="_blank">Bourses UNESCO</a></h3>
+                    <p>Offre des bourses internationales pour promouvoir l’éducation des femmes dans les pays en développement.</p>
+                </div>
+                <div class="resource-card">
+                    <h3><a href="https://scholarshipsforwomen.net/" target="_blank">Scholarships for Women</a></h3>
+                    <p>Un portail complet pour trouver des bourses d'études dans de nombreux domaines académiques.</p>
+                </div>
+                <div class="resource-card">
+                    <h3><a href="https://www.efrei.fr/" target="_blank">Programme EFREI pour les femmes en STEM</a></h3>
+                    <p>Encourage les étudiantes à poursuivre des études en sciences, technologies, ingénierie et mathématiques avec des aides spécifiques.</p>
+                </div>
+            </div>
+        </section>
 
-<h2>Associations de soutien aux femmes</h2>
+        <!-- Section Initiatives communautaires -->
+        <section id="initiatives-communautaires">
+            <h2>Initiatives Communautaires et Réseaux Locaux</h2>
+            <p>Rejoignez des communautés locales pour un soutien mutuel et des opportunités de mentorat :</p>
+            <ul>
+                <li><strong><a href="https://www.reseaufemmes.fr/" target="_blank">Réseau Femmes</a> :</strong> Plateforme pour connecter les femmes entrepreneures en France.</li>
+                <li><strong><a href="https://leanin.org/" target="_blank">Lean In Circles</a> :</strong> Réseau mondial qui soutient les femmes dans leur carrière grâce à des groupes de discussion.</li>
+                <li><strong><a href="https://www.womenintech.org/" target="_blank">Women in Tech</a> :</strong> Initiative internationale pour accroître la participation des femmes dans la technologie.</li>
+            </ul>
+        </section>
 
-<p>Des organisations comme <a href="https://www.oxfamfrance.org/">Oxfam</a>, <a href="https://www.medecinsdumonde.org/">Médecins du Monde</a>, <a href="https://www.plan-international.fr/">Plan International</a> et <a href="https://femmes-solidaires.org/">Femmes Solidaires</a> offrent des programmes d'aide, de protection et de promotion des droits des femmes. Ces associations travaillent à la fois au niveau national et international pour soutenir les femmes dans des situations de précarité.</p>
+        <!-- Section Appel à Action -->
+        <section id="appel-action">
+            <h2>Comment Contribuer ?</h2>
+            <p>Vous souhaitez faire partie du changement ? Voici comment vous pouvez aider :</p>
+            <div class="resource-container">
+                <div class="resource-card">
+                    <h3><a href="https://www.unwomen.org/" target="_blank">Faire un Don</a></h3>
+                    <p>Contribuez aux programmes internationaux pour l'égalité des sexes.</p>
+                </div>
+                <div class="resource-card">
+                    <h3><a href="https://www.benevolat.org/" target="_blank">Devenir Bénévole</a></h3>
+                    <p>Rejoignez une organisation locale ou internationale pour offrir votre temps et votre expertise.</p>
+                </div>
+                <div class="resource-card">
+                    <h3><a href="https://mentoratfemmes.org/" target="_blank">Devenir Mentor</a></h3>
+                    <p>Aidez les femmes à atteindre leurs objectifs professionnels en offrant un mentorat personnalisé.</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<h2>Refuges et maisons d'hébergement</h2>
-
-<p>Dans de nombreux pays, des refuges et maisons d'hébergement offrent un abri temporaire aux femmes victimes de violences domestiques. Ces établissements assurent également un suivi psychologique et juridique pour aider les femmes à se reconstruire. Vous pouvez trouver des refuges en France sur le site <a href="https://fed.lu/wp/">Femmes en détresse</a>.</p>
-
-<h2>Services juridiques et d'accompagnement</h2>
-
-<p>Si vous avez besoin de conseils juridiques sur des questions de divorce, de garde d'enfants, de violences ou de discrimination, de nombreux services d'aide juridique offrent des consultations gratuites ou à faible coût. En France, des structures comme <a href="https://www.defensesansfrontiere.org/">Avocats Solidaires</a> peuvent vous orienter.</p>
-
-<h2>Accès à l'éducation et à la formation professionnelle</h2>
-
-<p>De nombreuses organisations offrent des bourses d'études, des formations professionnelles ou des programmes d'autonomisation pour aider les femmes à accéder à l'éducation et à l'emploi. Des initiatives telles que <a href="https://shemeansbusiness.co/">SheMeansBusiness</a> de Facebook ou <a href="https://women-in-tech.org/">Women in Tech</a> aident les femmes à se lancer dans les domaines technologiques.</p>
-
-<h2>Santé reproductive</h2>
-
-<p>Des associations comme <a href="https://www.plannedparenthood.org/">Planned Parenthood</a> ou <a href="https://soutenir.msf.fr/">Médecins Sans Frontières</a> offrent des services de santé reproductive et de soutien aux femmes en matière de contraception, d'avortement sécurisé et de soins post-natals.</p>
-
-<p id="outro">Ces ressources sont essentielles pour aider les femmes à surmonter les obstacles auxquels elles sont confrontées et à leur offrir les outils nécessaires pour leur émancipation et leur autonomie.</p>
-
-<footer>
-    <p>&copy; 2024 Kenza Braham & Andréa Manente. Tous droits réservés.</p>
-    <a href="https://www.rhone.gouv.fr/Actions-de-l-Etat/Droit-des-femmes-et-egalite/Presentation-de-la-DRDFE/Chronologie">En savoir plus ?</a>
-</footer>
+    <footer>
+        ©️2024 Tous droits réservés. <a href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les?">En savoir plus ?</a>
+    </footer>
 </body>
 </html>
+

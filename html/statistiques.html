@@ -1,51 +1,113 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Statistiques</title>
     <meta charset="UTF-8">
+    <script src="../js/progressbar.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Satistiques</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <script type="text/JavaScript" src="../js/script.js" async></script>
 </head>
 <body>
+    <nav>
+        <a href="./apropos.html">A propos</a>
+        <a href="./histoire.html">Histoire</a>
+        <a href="./Problematiques.html">Problématiques actuelles</a>
+        <a href="./accueil.html">Accueil</a>
+        <a href="./Ressources.html">Ressources</a>
+        <a href="./statistiques.html">Statistiques</a>
+    </nav>
+    <div id="progressBar">
+        <div id="progress"></div>
+    </div>
+    
+
     <header>
-        <a href="https://www.egalite-femmes-hommes.gouv.fr/8-mars-journee-internationale-des-droits-des-femmes">
-            <img src="../img/women.jpg" alt="image sur le droit des femmes" id="header-logo" width="100%" 
-            height="auto">
-        </a>
-        <nav>
-            <a href="./acceuil.html">Accueil</a>
-            <a href="./histoire.html">Histoire</a>
-            <a href="./problematiques.html">Problematiques</a>
-            <a href="./statistiques.html">Statistiques</a>
-            <a href="./ressources.html">Ressources</a>
-            <a href="./apropos.html">A propos</a>
-        </nav>
+        <h1>Statistiques sur l'Égalité des Sexes</h1>
+        <p>Explorez des données clés pour comprendre les défis et les progrès réalisés en matière d'égalité des sexes dans le monde.</p>
     </header>
-    <h1>Statistiques sur l'égalité des sexes et les droits des femmes</h1>
 
-<p id="intro">Les chiffres parlent d'eux-mêmes. Voici quelques statistiques importantes qui soulignent les disparités persistantes entre les sexes à l'échelle mondiale :</p>
- 
-<h2>Violences de genre</h2>
+    <main>
+        <!-- Section Statistiques Générales -->
+        <section id="stats-generales">
+            <h2>Statistiques Globales</h2>
+            <div class="stat-container">
+                <div class="stat-card">
+                    <h3>70%</h3>
+                    <p>des femmes dans le monde ont subi une forme de violence au cours de leur vie.</p>
+                </div>
+                <div class="stat-card">
+                    <h3>59%</h3>
+                    <p>des diplômés universitaires sont des femmes, mais elles restent sous-représentées dans les postes de direction.</p>
+                </div>
+                <div class="stat-card">
+                    <h3>25%</h3>
+                    <p>des sièges parlementaires dans le monde sont occupés par des femmes.</p>
+                </div>
+            </div>
+        </section>
 
-<p>Selon les Nations Unies, une femme sur trois dans le monde sera victime de violence physique ou sexuelle au cours de sa vie. En 2021, environ 87 000 femmes ont été tuées dans le monde, dont 58 % ont été tuées par un membre de leur famille ou un partenaire intime. </p>
+        <!-- Section Progression par Région -->
+        <section id="progression-region">
+            <h2>Progression par Région</h2>
+            <p>Découvrez les progrès réalisés dans différentes régions du monde :</p>
+            <div class="region-container">
+                <div class="region-card">
+                    <h3>Europe</h3>
+                    <ul>
+                        <li><strong>35%</strong> de femmes dans les conseils d'administration des grandes entreprises.</li>
+                        <li><strong>95%</strong> des pays européens ont des lois sur l'égalité salariale.</li>
+                    </ul>
+                </div>
+                <div class="region-card">
+                    <h3>Afrique</h3>
+                    <ul>
+                        <li><strong>15%</strong> de femmes dans les postes ministériels.</li>
+                        <li><strong>60%</strong> des filles ont accès à une éducation primaire.</li>
+                    </ul>
+                </div>
+                <div class="region-card">
+                    <h3>Asie</h3>
+                    <ul>
+                        <li><strong>10%</strong> de réduction de l'écart salarial en une décennie.</li>
+                        <li><strong>50%</strong> des femmes participent maintenant à la main-d'œuvre.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-<h2>Inégalités salariales</h2>
+        <!-- Section Graphiques -->
+        <section id="graphiques">
+            <h2>Visualisation des Données</h2>
+            <p>Ces graphiques illustrent les disparités et progrès en matière d'égalité des sexes :</p>
+            <div class="chart-container">
+                <div class="chart">
+                    <img src="../img/graph3.webp" alt="Graphique 1">
+                    
+                </div>
+                <div class="chart">
+                    <img src="../img/graph2.webp" alt="Graphique 2 ">
+                    
+                </div>
+                <div class="chart">
+                    <img src="../img/graph1.webp" alt="Graphique 3 ">
+                    
+                </div>
+            </div>
+        </section>
 
-<p>À l'échelle mondiale, les femmes gagnent en moyenne 20 % de moins que les hommes pour un travail équivalent. L'écart salarial varie en fonction des secteurs, des régions et des positions occupées.
+        <!-- Section Appel à l'Action -->
+        <section id="appel-action">
+            <h2>Faites partie du Changement</h2>
+            <p>Partagez ces informations pour sensibiliser votre entourage ou rejoignez une initiative pour promouvoir l'égalité des sexes.</p>
+            <div class="action-buttons">
+                <button onclick="window.location.href='./Ressources.html'">Découvrir les Ressources</button>
+                <button onclick="window.location.href='./Problematiques.html'">Explorer les Problématiques</button>
+            </div>
+        </section>
+    </main>
 
-<h2>Inégalités d'accès à l'éducation et à la santé</h2>
-
-<p>Selon l'UNESCO, près de 130 millions de filles dans le monde ne sont toujours pas scolarisées, malgré les progrès réalisés dans certains pays. L'éducation des filles reste une priorité, car elle est essentielle pour briser le cycle de la pauvreté et renforcer l'autonomisation des femmes. Dans de nombreuses régions du monde, l'accès à des soins de santé de qualité, notamment les soins de maternité et de santé sexuelle et reproductive, demeure inégal. Environ 300 000 femmes meurent chaque année des suites de complications liées à la grossesse et à l'accouchement.</p>
-
-<h2>Représentation politique</h2>
-
-<p>En 2023, seulement 26,7 % des sièges parlementaires mondiaux étaient occupés par des femmes. Bien que ce chiffre soit en augmentation, les femmes restent largement sous-représentées dans les processus de décision politiques.
-</p>
-
-<footer>
-    <p>&copy; 2024 Kenza Braham & Andréa Manente. Tous droits réservés.</p>
-    <a href="https://www.rhone.gouv.fr/Actions-de-l-Etat/Droit-des-femmes-et-egalite/Presentation-de-la-DRDFE/Chronologie">En savoir plus ?</a>
-</footer>
+    <footer>
+        ©️2024 Tous droits réservés. <a href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les?">En savoir plus ?</a>
+    </footer>
 </body>
 </html>

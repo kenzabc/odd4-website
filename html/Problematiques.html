@@ -1,57 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <title>Problématiques Actuelles</title>
     <meta charset="UTF-8">
+    <script src="../js/progressbar.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Problématiques</title>
     <link rel="stylesheet" href="../css/styles.css">
-    <script type="text/JavaScript" src="../js/script.js" async></script>
 </head>
 <body>
+    <nav>
+        <a href="./apropos.html">A propos</a>
+        <a href="./histoire.html">Histoire</a>
+        <a href="./Problematiques.html">Problématiques actuelles</a>
+        <a href="./accueil.html">Accueil</a>
+        <a href="./Ressources.html">Ressources</a>
+        <a href="./statistiques.html">Statistiques</a>
+    </nav>
+    <div id="progressBar">
+        <div id="progress"></div>
+    </div>
+    
+
     <header>
-        <a href="https://www.egalite-femmes-hommes.gouv.fr/8-mars-journee-internationale-des-droits-des-femmes">
-            <img src="../img/women.jpg" alt="image sur le droit des femmes" id="header-logo" width="100%" 
-            height="auto">
-        </a>
-        <nav>
-            <a href="./acceuil.html">Accueil</a>
-            <a href="./histoire.html">Histoire</a>
-            <a href="./problematiques.html">Problematiques</a>
-            <a href="./statistiques.html">Statistiques</a>
-            <a href="./ressources.html">Ressources</a>
-            <a href="./apropos.html">A propos</a>
-        </nav>
+        <h1>Problématiques Actuelles</h1>
+        <p>Découvrez les défis contemporains liés à l'égalité des sexes et les enjeux sociaux, économiques et culturels qui persistent dans le monde.</p>
     </header>
 
-<h1>Problématiques liées à l'égalité des sexes et aux droits des femmes</h1>
+    <main>
+        <!-- Section Violence Contre les Femmes -->
+        <section id="violence-femmes">
+            <h2>La Violence Contre les Femmes</h2>
+            <p>La violence basée sur le genre reste l'un des défis majeurs dans le monde. Une femme sur trois subit des violences au cours de sa vie.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/5Wg75jEaOfk" 
+                title="Vidéo sur la violence contre les femmes" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+        </section>
 
-<p id="intro">L'égalité des sexes reste un enjeu crucial pour la société mondiale. Malgré les progrès réalisés au fil des décennies, les femmes continuent de faire face à une multitude de problématiques qui entravent leur liberté, leur sécurité et leur épanouissement.</p>
- 
-<h2>Violences domestiques et sexuelles</h2>
+        <!-- Section Inégalités Salariales -->
+        <section id="inegalites-salariales">
+            <h2>Inégalités Salariales</h2>
+            <p>Les femmes gagnent en moyenne 20 % de moins que les hommes à poste égal dans de nombreux pays. Ce problème persiste malgré les lois sur l'égalité salariale.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/SrZzLahXDQQ" 
+                title="Vidéo sur les inégalités salariales" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+                </iframe>
+            </div>
+        </section>
 
-<p>Parmi les principales difficultés rencontrées par les femmes, on retrouve :
+        <!-- Section Sous-Représentation dans les Postes de Pouvoir -->
+        <section id="sous-representation">
+            <h2>Sous-Représentation dans les Postes de Pouvoir</h2>
+            <p>Malgré les progrès, les femmes occupent moins de 30 % des sièges parlementaires dans le monde. Leur présence dans les conseils d'administration reste également limitée.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/wMEAVIpY0VQ" 
+                title="Vidéo sur la sous-représentation des femmes dans les postes de pouvoir." 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+</iframe>
 
-La violence domestique et les violences sexuelles : Les femmes sont encore trop souvent victimes de violences physiques, psychologiques, sexuelles et économiques au sein de leur foyer ou dans des situations publiques. Ces violences laissent des séquelles profondes et contribuent à maintenir un système d'inégalité. </p>
 
-<h2>Inégalités salariales</h2>
+            </div>
+        </section>
 
-<p>Les inégalités salariales : Les femmes continuent de percevoir des salaires inférieurs à ceux des hommes pour un travail équivalent. Cette inégalité salariale est particulièrement marquée dans certains secteurs d'activité et dans les postes de direction. </p>
+        <!-- Section Enjeux Culturels et Sociaux -->
+        <section id="enjeux-culturels">
+            <h2>Enjeux Culturels et Sociaux</h2>
+            <p>Dans de nombreuses régions, les normes culturelles continuent de freiner l'accès des femmes à l'éducation, à l'emploi et à la liberté individuelle.</p>
+            <ul>
+                <li><strong>Education :</strong> Plus de 130 millions de filles dans le monde ne vont pas à l'école.</li>
+                <li><strong>Mariages forcés :</strong> Une fille mineure sur cinq est mariée avant l'âge de 18 ans.</li>
+                <li><strong>Accès limité aux soins :</strong> Les femmes sont souvent privées d'un accès égal aux services de santé.</li>
+            </ul>
+        </section>
 
-<h2>Discriminations professionnelles</h2>
+        <!-- Section Appel à l'Action -->
+        <section id="appel-action">
+            <h2>Comment Agir ?</h2>
+            <p>Vous pouvez contribuer à changer les choses en partageant ces problématiques et en soutenant des initiatives locales et globales.</p>
+            <div class="action-buttons">
+                <button onclick="window.location.href='./Ressources.html'">Accéder aux Ressources</button>
+                <button onclick="window.location.href='./statistiques.html'">Explorer les Statistiques</button>
+            </div>
+        </section>
+    </main>
 
-<p>Les discriminations professionnelles : Les femmes sont confrontées à des obstacles dans l'accès à des postes de responsabilité, à la promotion, et sont souvent sous-représentées dans des domaines comme les sciences, la technologie, l'ingénierie et les mathématiques (STEM).</p>
-
-<h2>Inégalités d'accès à l'éducation et à la santé</h2>
-
-<p>Les inégalités d'accès à l'éducation et à la santé : Dans de nombreuses régions du monde, les filles n'ont pas accès à l'éducation ou à des soins de santé appropriés. Ces obstacles freinent leur développement et leur autonomisation.</p>
-
-<h2>Représentation politique et médiatique</h2>
-
-<p>La représentation politique et médiatique : Bien que des progrès aient été réalisés, les femmes restent sous-représentées dans les gouvernements et dans les instances décisionnelles. De plus, les stéréotypes sexistes dans les médias influencent la perception sociale des femmes et de leurs rôles.</p>
-
-<footer>
-    <p>&copy; 2024 Kenza Braham & Andréa Manente. Tous droits réservés.</p>
-    <a href="https://www.rhone.gouv.fr/Actions-de-l-Etat/Droit-des-femmes-et-egalite/Presentation-de-la-DRDFE/Chronologie">En savoir plus ?</a>
-</footer>
+    <footer>
+        ©️2024 Tous droits réservés. <a href="https://www.agenda-2030.fr/17-objectifs-de-developpement-durable/article/odd5-realiser-l-egalite-des-sexes-et-autonomiser-toutes-les-femmes-et-les?">En savoir plus ?</a>
+    </footer>
 </body>
 </html>
